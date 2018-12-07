@@ -29,13 +29,13 @@ public class Test {
         company.showAllStaffs();
         /**
          * 打印结果：
-         Obj:design_pattern.creational.singleton.demo1.CEO@4554617c
-         Obj:design_pattern.creational.singleton.demo1.CEO@4554617c
-         Obj:design_pattern.creational.singleton.demo1.VP@74a14482
-         Obj:design_pattern.creational.singleton.demo1.VP@1540e19d
-         Obj:design_pattern.creational.singleton.demo1.Staff@677327b6
-         Obj:design_pattern.creational.singleton.demo1.Staff@14ae5a5
-         Obj:design_pattern.creational.singleton.demo1.Staff@7f31245a
+         Obj:design_pattern.creational.classloading.singleton.demo1.CEO@4554617c
+         Obj:design_pattern.creational.classloading.singleton.demo1.CEO@4554617c
+         Obj:design_pattern.creational.classloading.singleton.demo1.VP@74a14482
+         Obj:design_pattern.creational.classloading.singleton.demo1.VP@1540e19d
+         Obj:design_pattern.creational.classloading.singleton.demo1.Staff@677327b6
+         Obj:design_pattern.creational.classloading.singleton.demo1.Staff@14ae5a5
+         Obj:design_pattern.creational.classloading.singleton.demo1.Staff@7f31245a
          */
     }
 }

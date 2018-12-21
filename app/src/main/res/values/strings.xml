@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ReflectDemo</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_three">ThreeActivity</string>
+    <string name="title_activity_four">FourActivity</string>
 </resources>

@@ -1,5 +1,6 @@
 package thread.demo2;
 
+import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -8,6 +9,12 @@ import java.util.concurrent.Future;
 /**
  * Created by LIXIAOYE on 2018/12/21.
  */
+class MyCallable implements Callable {
+    @Override
+    public Object call() throws Exception {
+        return "We wish you a merry christmas,and a happy new year!";
+    }
+}
 
 public class TestCallable {
     //创建线程类

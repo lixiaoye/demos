@@ -1,0 +1,21 @@
+package design_pattern.behavioral.visitor.demo2;
+
+/**
+ * Created by LIXIAOYE on 2018/12/26.
+ */
+
+public class Wheel {
+    private String name;
+
+    public Wheel(String name) {
+        this.name = name;
+    }
+
+    String getName() {
+        return this.name;
+    }
+
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
+    }
+}

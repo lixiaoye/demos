@@ -1,5 +1,7 @@
 package design_pattern.structural_pattern.flyweight.demo1;
 
+import java.net.ServerSocket;
+
 /**
  * Created by LIXIAOYE on 2018/12/26.
  */
@@ -22,4 +24,5 @@ public class Test {
      使用缓存==> 北京-青岛
      购买从 北京 到 青岛的 坐票 火车票,价格：298
      */
+//ServerSocket
 }

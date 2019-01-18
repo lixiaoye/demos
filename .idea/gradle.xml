@@ -9,6 +9,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/multiprocess1" />
+            <option value="$PROJECT_DIR$/mutliprocess2" />
+            <option value="$PROJECT_DIR$/udpclient" />
+            <option value="$PROJECT_DIR$/udpserver" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

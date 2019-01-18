@@ -1,5 +1,8 @@
 package lxy.android.com.reflectdemo;
 
+import android.app.Activity;
+import android.content.ContentProvider;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
@@ -10,6 +13,8 @@ import android.util.Log;
 public class MainActivity extends AppCompatActivity {
 
     private static final int MESSAGE_WHAT = 2;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

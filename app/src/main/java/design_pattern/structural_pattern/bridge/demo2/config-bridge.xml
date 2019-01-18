@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <!--RefinedAbstraction-->
+    <className>design_pattern.structural_pattern.bridge.demo2.JPGImage</className>
+    <!--ConcreteImplementor-->
+    <className>design_pattern.structural_pattern.bridge.demo2.WindowsImpl</className>
+</config>

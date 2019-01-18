@@ -1,0 +1,17 @@
+package design_pattern.structural_pattern.adapter.demo;
+
+/**
+ * Created by LIXIAOYE on 2019/1/15.
+ */
+
+public class BirdAdapter implements ToyDuck {
+    Bird bird;
+    public BirdAdapter(Bird bird) {
+        this.bird = bird;
+    }
+
+    @Override
+    public void squeak() {
+        bird.makeSound();
+    }
+}

@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':udpclient', ':udpserver', ':multiprocess1', ':mutliprocess2'

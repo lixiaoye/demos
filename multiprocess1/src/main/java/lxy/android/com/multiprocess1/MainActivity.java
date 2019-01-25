@@ -16,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.e(TAG, "onCreate " + (savedInstanceState != null ? savedInstanceState.getString(key) : ""));
+//        finish();//onCreate->onDestroy
+        onDestroy();//onCreate->onDestroy
+//        super.onDestroy();//onCreate
+//        super.onStop();//onCreate->onResume
     }
 
     @Override

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lxy.android.com.binderdemo.demo2.client.MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+    <Button
+        android:id="@+id/btn1"
+        android:onClick="click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加人员"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/tv" />
+    <Button
+        android:id="@+id/btn2"
+        android:onClick="clickNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下一页"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/btn1" />
+
+</android.support.constraint.ConstraintLayout>

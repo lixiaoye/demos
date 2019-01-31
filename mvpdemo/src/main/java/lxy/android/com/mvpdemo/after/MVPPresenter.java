@@ -1,7 +1,6 @@
 package lxy.android.com.mvpdemo.after;
 
 
-
 /**
  * Created by LIXIAOYE on 2019/1/24.
  */
@@ -22,5 +21,10 @@ public class MVPPresenter {
 
     public void request() {
         modal.request();
+    }
+
+    public void detachView() {
+        view = null;
+        modal.removeTask();
     }
 }

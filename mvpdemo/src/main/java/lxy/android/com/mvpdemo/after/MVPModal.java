@@ -31,7 +31,7 @@ public class MVPModal {
             @Override
             public void run() {
                 try {
-                    Thread.sleep(5000);
+                    Thread.sleep(2000);
                     String s = "mvp 服务器返回数据：2 - " + new Random().nextInt(10);
                     //将结果通知给presenter
                     Message msg = handler.obtainMessage();
@@ -42,5 +42,9 @@ public class MVPModal {
                 }
             }
         }).start();
+    }
+
+    public void removeTask() {
+        handler.removeCallbacksAndMessages(null);
     }
 }

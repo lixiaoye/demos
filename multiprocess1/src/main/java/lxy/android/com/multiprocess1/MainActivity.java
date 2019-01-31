@@ -17,9 +17,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.e(TAG, "onCreate " + (savedInstanceState != null ? savedInstanceState.getString(key) : ""));
 //        finish();//onCreate->onDestroy
-        onDestroy();//onCreate->onDestroy
+//        onDestroy();//onCreate->onDestroy
 //        super.onDestroy();//onCreate
 //        super.onStop();//onCreate->onResume
+        UserManager.sUserId = 2;
+        Log.e(TAG, "MainActivity 静态变量sUserId=" + UserManager.sUserId);
     }
 
     @Override

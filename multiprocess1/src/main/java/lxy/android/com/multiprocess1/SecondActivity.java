@@ -1,5 +1,6 @@
 package lxy.android.com.multiprocess1;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
@@ -13,8 +14,9 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+        Activity
         Log.e(TAG, "onCreate");
-
+        Log.e(TAG, "SecondActivity 静态变量sUserId=" + UserManager.sUserId);
     }
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="lxy.android.com.mvpdemo.prev.MVCActivity">
+
     <TextView
         android:id="@+id/tv"
         android:layout_width="match_parent"
@@ -14,13 +15,24 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/btn"
-        android:onClick="click"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="请求数据"
         android:gravity="center_horizontal"
+        android:onClick="click"
+        android:text="请求数据"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv"/>
+        app:layout_constraintTop_toBottomOf="@id/tv" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:onClick="clickNext"
+        android:text="跳转至下一页"
+        app:layout_constraintTop_toBottomOf="@id/btn" />
 </android.support.constraint.ConstraintLayout>

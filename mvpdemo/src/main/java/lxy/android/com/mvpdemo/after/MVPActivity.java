@@ -35,4 +35,15 @@ public class MVPActivity extends AppCompatActivity implements MVPView {
     public void updateTextView(String msg) {
         tv.setText(msg);
     }
+
+    /**
+     * 当Activity退出后，Model中请求数据没有意义了，
+     * 所以应该在detachView中把Handler的任务取消，
+     * 避免造成资源浪费
+     */
+    @Override
+    protected void onDestroy() {
+        presenter.detachView();
+        super.onDestroy();
+    }
 }

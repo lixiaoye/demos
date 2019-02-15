@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/multiprocess1" />
             <option value="$PROJECT_DIR$/mutliprocess2" />
             <option value="$PROJECT_DIR$/mvpdemo" />
+            <option value="$PROJECT_DIR$/scrolldemo" />
             <option value="$PROJECT_DIR$/udpclient" />
             <option value="$PROJECT_DIR$/udpserver" />
           </set>

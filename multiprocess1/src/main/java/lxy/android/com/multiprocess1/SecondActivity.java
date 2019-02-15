@@ -14,7 +14,6 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-        Activity
         Log.e(TAG, "onCreate");
         Log.e(TAG, "SecondActivity 静态变量sUserId=" + UserManager.sUserId);
     }

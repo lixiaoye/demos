@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/multiprocess1/multiprocess1.iml" filepath="$PROJECT_DIR$/multiprocess1/multiprocess1.iml" />
       <module fileurl="file://$PROJECT_DIR$/mutliprocess2/mutliprocess2.iml" filepath="$PROJECT_DIR$/mutliprocess2/mutliprocess2.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvpdemo/mvpdemo.iml" filepath="$PROJECT_DIR$/mvpdemo/mvpdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttpdemo/okhttpdemo.iml" filepath="$PROJECT_DIR$/okhttpdemo/okhttpdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrolldemo/scrolldemo.iml" filepath="$PROJECT_DIR$/scrolldemo/scrolldemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/udpclient/udpclient.iml" filepath="$PROJECT_DIR$/udpclient/udpclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/udpserver/udpserver.iml" filepath="$PROJECT_DIR$/udpserver/udpserver.iml" />

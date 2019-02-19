@@ -9,7 +9,7 @@ import java.net.URLClassLoader;
 
 public class BootStrapTest {
     public static void main(String[] args) {
-        System.out.println("BootstrapClassLoader urls :");
+        /*System.out.println("BootstrapClassLoader urls :");
         URL[] urls = sun.misc.Launcher.getBootstrapClassPath().getURLs();
         for (URL url : urls) {
             System.out.println(url);
@@ -29,7 +29,7 @@ public class BootStrapTest {
         urls = appClassLoader.getURLs();
         for (URL url : urls) {
             System.out.println(url);
-        }
+        }*/
     }
 /**
  * BootstrapClassLoader urls :

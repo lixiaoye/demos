@@ -186,9 +186,9 @@ public class MainActivity extends AppCompatActivity {
      * 下载一张图片，得到Response后将流写进指定的图片文件中
      */
     public void asyncDownload() {
+        OkHttpClient okHttpClient = new OkHttpClient();
         String url = "https://www.lixiaoye.top/wp-content/uploads/2019/01/android8.0Activity的启动流程剖析.png";
         Request request = new Request.Builder().url(url).build();
-        OkHttpClient okHttpClient = new OkHttpClient();
         okHttpClient.newCall(request).enqueue(new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {

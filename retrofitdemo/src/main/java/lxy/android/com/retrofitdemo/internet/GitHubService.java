@@ -85,6 +85,12 @@ public interface GitHubService {
     void loginWithWechat(@Body String code, @QueryMap Map<String, Object> data, Callback<Result<WeChatLoginResponse>> cb);
 //    https://xxx.xxx.cn/calendar-v2/wechat/login?sign=xxx&time=1550659887248&code=xxx&client=1&clientVersion=1.7.9&uuid=androidxxx
 
+/*    // 创建 RequestBody，用于封装构建RequestBody
+    RequestBody requestFile =
+            RequestBody.create(MediaType.parse("multipart/form-data"), file);
+    // MultipartBody.Part  和后端约定好Key，这里的partName是用image
+    MultipartBody.Part body =
+            MultipartBody.Part.createFormData("image", file.getName(), requestFile);*/
 
     /*@Header()
     @Headers()

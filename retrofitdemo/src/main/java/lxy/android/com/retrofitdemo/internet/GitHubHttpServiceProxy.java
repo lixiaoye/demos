@@ -1,5 +1,6 @@
 package lxy.android.com.retrofitdemo.internet;
 
+import java.net.HttpURLConnection;
 import java.util.List;
 import java.util.Map;
 

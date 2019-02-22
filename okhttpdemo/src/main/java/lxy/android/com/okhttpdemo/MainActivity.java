@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 //        getAsyncHttp();
+
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -56,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 //                asyncUpload();
 //                asyncDownload();
 //                sendMultipart();
-                cancelTask();
+//                cancelTask();
             }
         }).start();
     }
@@ -100,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * 同步GET请求，子线程进行网络请求
+     * 主线程中调用报错：Caused by: android.os.NetworkOnMainThreadException
      */
     public String getSyncHttp() throws IOException {
         OkHttpClient client = new OkHttpClient();

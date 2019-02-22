@@ -1,1 +1,1 @@
-include ':app', ':udpclient', ':udpserver', ':multiprocess1', ':mutliprocess2', ':mvpdemo', ':binderdemo', ':scrolldemo', ':okhttpdemo', ':retrofitdemo'
+include ':app', ':udpclient', ':udpserver', ':multiprocess1', ':mutliprocess2', ':mvpdemo', ':binderdemo', ':scrolldemo', ':okhttpdemo', ':retrofitdemo', ':rxjavademo'

@@ -1,1 +1,9 @@
+#Gradle files
+.gradle
 /build
+
+
+# Intellij project files recording to https://intellij-support.jetbrains.com/entries/23393067
+*.iws
+*.iml
+.idea/*

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="lxy.android.com.mvpdemo.after.MVPActivity">
+    tools:context="lxy.android.com.mvpdemo.after.demo1.MVPActivity">
 
     <TextView
         android:id="@+id/tv"

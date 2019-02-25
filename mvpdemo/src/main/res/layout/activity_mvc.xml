@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="lxy.android.com.mvpdemo.prev.MVCActivity">
+    tools:context="lxy.android.com.mvpdemo.prev.demo1.MVCActivity">
 
     <TextView
         android:id="@+id/tv"
@@ -35,4 +35,13 @@
         android:onClick="clickNext"
         android:text="跳转至下一页"
         app:layout_constraintTop_toBottomOf="@id/btn" />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:onClick="clickPrev"
+        android:text="跳转至上一页"
+        app:layout_constraintTop_toBottomOf="@id/btn2" />
 </android.support.constraint.ConstraintLayout>

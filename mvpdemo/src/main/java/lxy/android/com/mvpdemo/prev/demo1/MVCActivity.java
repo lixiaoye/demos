@@ -1,4 +1,4 @@
-package lxy.android.com.mvpdemo.prev;
+package lxy.android.com.mvpdemo.prev.demo1;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,8 +8,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import lxy.android.com.mvpdemo.R;
-import lxy.android.com.mvpdemo.after.MVPActivity;
-import lxy.android.com.mvpdemo.after.MVPPresenter;
+import lxy.android.com.mvpdemo.after.demo1.MVPActivity;
+import lxy.android.com.mvpdemo.prev.demo2.MVC2Activity;
 
 public class MVCActivity extends AppCompatActivity {
 
@@ -30,5 +30,8 @@ public class MVCActivity extends AppCompatActivity {
 
     public void clickNext(View view) {
         startActivity(new Intent(this, MVPActivity.class));
+    }
+    public void clickPrev(View view) {
+        startActivity(new Intent(this, MVC2Activity.class));
     }
 }

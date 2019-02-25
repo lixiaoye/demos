@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data">
+        <item>面纱</item>
+        <item>飘上</item>
+        <item>飘上</item>
+        <item>陌生女人</item>
+        <item>霍乱时期的爱情</item>
+        <item>月亮与六便士</item>
+        <item>百年孤独</item>
+    </string-array>
+
+</resources>

@@ -1,6 +1,5 @@
-package lxy.android.com.mvpdemo.after;
+package lxy.android.com.mvpdemo.after.demo1;
 
-import android.app.Presentation;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;

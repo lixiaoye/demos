@@ -14,7 +14,7 @@ public class MVC2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        lv = new ListView(this);//error:java.lang.SecurityException: Package lxy.android.com.mvpdemo is currently frozen!
+        lv = new ListView(this);//error:java.lang.SecurityException: Package lxy.android.com.mvpdemo is currently frozen!
         setContentView(R.layout.activity_mvc2);
         //设置视图层
         lv = findViewById(R.id.lv);

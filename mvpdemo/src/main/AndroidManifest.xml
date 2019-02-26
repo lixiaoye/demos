@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".after.demo1.MVPActivity" />
-        <activity android:name=".prev.demo2.MVC2Activity"/>
+        <activity android:name=".prev.demo2.MVC2Activity" />
+        <activity android:name=".after.demo3.view.UserInfoActivity"></activity>
     </application>
 
 </manifest>

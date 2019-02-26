@@ -8,6 +8,10 @@ import java.util.List;
  * 用于保存网络上加载的数据，以及从数据库中加载文章缓存
  */
 class ArticleModelImpl implements ArticleModel {
-    List<Article> mCachedArticles=new LinkedList<Article>();
+    @Override
+    public void saveArticles(List<Article> articles) {
+        
+    }
+//    List<Article> mCachedArticles=new LinkedList<Article>();
 
 }

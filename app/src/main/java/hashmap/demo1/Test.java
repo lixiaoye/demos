@@ -9,7 +9,7 @@ import java.util.HashMap;
 public class Test {
     public static void main(String[] args) {
         HashMap<Integer,String> hashMap=new HashMap<Integer,String>(20);
-        hashMap.put(1,"hha");
+        hashMap.put(1,"Jack");//(key,value)
 
     }
 }

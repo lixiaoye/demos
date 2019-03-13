@@ -7,11 +7,11 @@ package lxy.android.com.mvpdemo.after.demo1;
 
 public class MVPPresenter {
     private MVPView view;
-    private MVPModal modal;
+    private MVPModel modal;
 
     public MVPPresenter(MVPView view) {
         this.view = view;
-        modal = new MVPModal(new Callback() {
+        modal = new MVPModel(new Callback() {
             @Override
             public void onResult(String msg) {
                 MVPPresenter.this.view.updateTextView(msg);

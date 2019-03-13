@@ -7,7 +7,7 @@ package thread.demo1;
 
 public class ReenterBlocked {
     public static void main(String[] args) throws InterruptedException {
-        Account account = new Account();
+        final Account account = new Account();
         Thread withdrawThread = new Thread(new Runnable() {
             @Override
             public void run() {

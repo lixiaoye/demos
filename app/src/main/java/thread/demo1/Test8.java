@@ -6,7 +6,7 @@ package thread.demo1;
 
 public class Test8 {
     public static void main(String[] args) throws InterruptedException {
-        Object lock = new Object();
+        final Object lock = new Object();
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {

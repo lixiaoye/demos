@@ -8,7 +8,7 @@ import java.util.concurrent.locks.Condition;
 
 public class Test7 {
     public static void main(String[] args) {
-        Object obj = new Object();
+        final Object obj = new Object();
         Thread threadA = new Thread(new Runnable() {
             @Override
             public void run() {

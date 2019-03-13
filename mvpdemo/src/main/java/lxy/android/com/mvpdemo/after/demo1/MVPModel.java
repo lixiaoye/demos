@@ -10,10 +10,10 @@ import java.util.Random;
  * Created by LIXIAOYE on 2019/1/24.
  */
 
-public class MVPModal {
+public class MVPModel {
     private Callback callback;
 
-    protected MVPModal(Callback callback) {
+    protected MVPModel(Callback callback) {
         this.callback = callback;
     }
 

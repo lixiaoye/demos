@@ -37,7 +37,6 @@ public class Test {
         //c2将指向c1指向的同一个对象
         System.out.println("c1==c2:" + (c1 == c2));//c1==c2:true
     }
-    
 /**
  * 打印结果：
  getClass().getName():com.example.jvmdemo.Student

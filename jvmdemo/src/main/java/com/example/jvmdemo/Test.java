@@ -7,9 +7,7 @@ import java.lang.reflect.Method;
  * Created by lixiaoye on 2019/4/11.
  */
 public class Test {
-
     public static void main(String[] args) {
-        
         Student s1 = new Student();
         s1.setName("lixiaoye");
         s1.setRoll_No(1);
@@ -39,6 +37,7 @@ public class Test {
         //c2将指向c1指向的同一个对象
         System.out.println("c1==c2:" + (c1 == c2));//c1==c2:true
     }
+    
 /**
  * 打印结果：
  getClass().getName():com.example.jvmdemo.Student

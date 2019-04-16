@@ -23,5 +23,5 @@ public class Student {
     public void setRoll_No(int roll_No) {
         this.roll_No = roll_No;
     }
-    
+
 }

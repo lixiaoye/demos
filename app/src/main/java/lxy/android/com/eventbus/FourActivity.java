@@ -1,5 +1,6 @@
 package lxy.android.com.eventbus;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -11,6 +12,7 @@ import android.widget.TextView;
 
 import org.greenrobot.eventbus.EventBus;
 
+import lxy.android.com.glide.FiveActivity;
 import lxy.android.com.reflectdemo.R;
 
 public class FourActivity extends AppCompatActivity {
@@ -53,4 +55,8 @@ public class FourActivity extends AppCompatActivity {
 
     }
 
+
+    public void clickNext(View view) {
+        startActivity(new Intent(this, FiveActivity.class));
+    }
 }

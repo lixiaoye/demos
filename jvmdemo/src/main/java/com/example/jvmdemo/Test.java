@@ -7,8 +7,9 @@ import java.lang.reflect.Method;
  * Created by lixiaoye on 2019/4/11.
  */
 public class Test {
-    
+
     public static void main(String[] args) {
+        
         Student s1 = new Student();
         s1.setName("lixiaoye");
         s1.setRoll_No(1);

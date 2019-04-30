@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.eventdispatchdemo.MyLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLinearLayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eventdispatchdemo.MainActivity"
+    android:orientation="vertical">
+
+    <com.example.eventdispatchdemo.MyTextView
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AppCompatTextView"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"
+        />
+    <!--<com.example.eventdispatchdemo.MyButton
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="按钮1"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"/>-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:text="下一页"
+        android:onClick="clickNext"/>
+
+</com.example.eventdispatchdemo.MyLinearLayout>
